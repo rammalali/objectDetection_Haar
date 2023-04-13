@@ -4,7 +4,7 @@ import urllib.request
 
 from matplotlib import pyplot as plt
 
-haarcascade_path = r'D:\uni\Coursera\ComputerVision1IBM\week5\eye_detector.xml'
+haarcascade_path = r'./eye_detector.xml'
 detector = cv2.CascadeClassifier(haarcascade_path)
 
 
@@ -50,7 +50,7 @@ def detect_obj(image):
 
 
 
-image_path = r"D:\uni\Coursera\ComputerVision1IBM\week5\Cristiano.jpg"
+image_path = r"./Cristiano.jpg"
 image = cv2.imread(image_path)
 
 # print(image)
